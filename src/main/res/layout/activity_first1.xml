@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity1"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:text="历史信息"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/inputmessage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:hint="此处输入要发送的短信内容"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="发送"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
